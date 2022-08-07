@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Sunnyside Agency</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <header class="header-container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.svg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd"/></svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link px-5" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <button class="contact">CONTACT</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Remainder of Header -->
+    <h1>WE ARE CREATIVES</h1>
+    <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow">
+  </header>
+  <!-- Tiles -->
+  <section class="container-fluid gx-0">
+    <div class="row row-cols-2 g-0">
+      <div class="col-12 col-sm-6">
+        <img src="images/desktop/image-transform.jpg" alt="transform">
+      </div>
+      <div class="col-12 col-sm-6 order-sm-first transform">
+        <h2>Transform your brand</h2>
+        <p class="tile-text">We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a class="learn-more" href="#">LEARN MORE</a>
+      </div>
+      <div class="col-12 col-sm-6">
+        <img src="images/desktop/image-stand-out.jpg" alt="stand-out">
+      </div>
+      <div class="col-12 col-sm-6 stand-out">
+        <h2>Stand out to the right audience</h2>
+        <p class="tile-text">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+        <a class="learn-more" href="#">LEARN MORE</a>
+      </div>
+      <div class="col-12 col-sm-6 graphic-design">
+        <h3>Graphic Design</h3>
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+      <div class="col-12 col-sm-6 photography">
+        <h3>Photography</h3>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials -->
+  <section class="container-fluid testimonials">
+    <h5>CLIENT TESTIMONIALS</h5>
+    <div class="row">
+      <div class="col-12 col-sm-4">
+        <img src="images/image-emily.jpg" alt="img-emily">
+        <p class="quote">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <h6>Emily R.</h6>
+        <p class="position">Marketing Director</p>
+      </div>
+      <div class="col-12 col-sm-4">
+        <img src="images/image-thomas.jpg" alt="img-thomas">
+        <p class="quote">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <h6>Thomas S.</h6>
+        <p class="position">Chief Operating Officer</p>
+      </div>
+      <div class="col-12 col-sm-4">
+        <img src="images/image-jennie.jpg" alt="img-jennie">
+        <p class="quote">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <h6>Jennie F.</h6>
+        <p class="position">Business Owner</p>
+      </div>
+    </div>
+  </section>
+  <!-- Photos -->
+  <section class="container-fluid photos gx-0">
+    <div class="row row-cols-4 g-0">
+      <div class="col-6 col-sm-3 milk-img">
+        <img class="milk" src="images/desktop/image-gallery-milkbottles.jpg" alt="img-milk">
+      </div>
+      <div class="col-6 col-sm-3 orange-img">
+        <img class="orange-img" src="images/desktop/image-gallery-orange.jpg" alt="img-orange">
+      </div>
+      <div class="col-6 col-sm-3 cone-img">
+        <img class="cone" src="images/desktop/image-gallery-cone.jpg" alt="img-cone">
+      </div>
+      <div class="col-6 col-sm-3 sugarcubes-img">
+        <img class="sugar" src="images/desktop/image-gallery-sugarcubes.jpg" alt="img-sugarcubes">
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <a href="#">
+      <img class="footer-logo" src="images/logo-footer.svg" alt="logo">
+    </a>
+    <ul class="footer-links">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Projects</a></li>
+    </ul>
+    <ul class="socials">
+      <li><a href="#">
+        <img class="fb" src="images/icon-facebook.svg" alt="fb">
+      </a></li>
+      <li><a href="#">
+        <img class="ig" src="images/icon-instagram.svg" alt="ig">
+      </a></li>
+      <li><a href="#">
+        <img class="twitter" src="images/icon-twitter.svg" alt="twitter">
+      </a></li>
+      <li><a href="#">
+        <img class="pinterest" src="images/icon-pinterest.svg" alt="pinterest">
+      </a></li>
+    </ul>
+  </footer>
+</body>
+</html>
